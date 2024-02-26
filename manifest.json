@@ -1,0 +1,12 @@
+{
+  "name": "bilibili",
+  "version": "1.0.0",
+  "description": "bilibili",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.bilibili.com/*"],
+      "js": ["contentscript.js"]
+    }
+  ]
+}
